@@ -2,14 +2,13 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://hub.fastgit.org" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com/omnirom" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
-           review="gerrit.omnirom.org" />
+           fetch="https://hub.fastgit.org/omnirom" />
 
   <project path="art" name="android_art" remote="omnirom" revision="android-9.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-9.0" groups="pdk" />
