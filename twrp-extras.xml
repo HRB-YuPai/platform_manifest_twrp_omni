@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="TeamWin"
-            fetch="https://github.com/TeamWin"
-            review="https://gerrit.twrp.me" />
+            fetch="https://hub.fastgit.org/TeamWin" />
 
 <!-- TWRP lives in TeamWin android-9.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
