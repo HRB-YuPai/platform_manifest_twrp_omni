@@ -2,11 +2,10 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://hub.fastgit.org/" />
 
   <remote  name="omnirom"
-           fetch="https://github.com/omnirom"
-           review="gerrit.omnirom.org" />
+           fetch="https://hub.fastgit.org/omnirom" />
 
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="omnirom" revision="android-9.0" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="omnirom" revision="android-9.0" />
